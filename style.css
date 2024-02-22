@@ -94,7 +94,7 @@ a{
 .in-sobre{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    padding: 300px 300px 100px 300px;
+    padding: 100px 300px 100px 300px;
 
     gap: 40px;
 }
@@ -116,7 +116,7 @@ a{
 .footer{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    padding: 50px 400px;
+    padding: 50px 200px;
     gap: 30px;
 
     background-color: rgba(104, 50, 10, 0.694);
@@ -144,17 +144,17 @@ a{
     box-shadow: 0.2px 0.2px white;
 }
 
-@media screen and (width < 426px){
+@media screen and (width < 400px){
     .in-nav{
         display: none;
         justify-content: center;
     }
     
     .header{
-        background-image: url(/assets/artwork-mob.png);
-        background-position: 560px 00px;
-        background-size: 700px;
-        height: 650px;
+        background-image:url(assets/artwork-mob.png);
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: 100vh;
     }
     
     .in-header{
@@ -177,7 +177,7 @@ a{
     .in-sobre{
         display: flex;
         flex-direction: column-reverse;
-        padding: 600px 40px 200px 40px;
+        padding: 200px 10px;
     
         gap: 20px;
     }
@@ -197,17 +197,6 @@ a{
     }
     
 }
-
-
-
-
-
-
-
-
-
-
-
 
 :-webkit-scrollbar-track{
     background-color: black;
