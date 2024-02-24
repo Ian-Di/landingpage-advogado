@@ -177,7 +177,7 @@ a{
     .in-sobre{
         display: flex;
         flex-direction: column-reverse;
-        padding: 200px 10px;
+        padding: 200px 1.5px;
     
         gap: 20px;
     }
